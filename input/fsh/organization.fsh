@@ -6,7 +6,7 @@ ValueSet: SEBaseHSAVerksamhetVS
 * include codes from system urn:oid:1.2.752.129.2.2.1.3
 
 Profile: SEBaseOrganization
-Parent: http://hl7.org/fhir/StructureDefinition/Organization
+Parent: http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips
 Title: "SE base profile for organization"
 Description: "This is the base Organization profile to be used when profiling on Organization in a Swedish context"
 * ^status = #active

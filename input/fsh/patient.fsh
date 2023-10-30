@@ -58,7 +58,7 @@ Description: "This extension defines the official ValueSet to be used when expre
 // alt. * valueCodeableConcept from http://snomed.info/sct/45991000052106/ValueSet?fhir_vs=refset/64691000052109 (required)
 
 Profile: SEBasePatient
-Parent: http://hl7.org/fhir/StructureDefinition/Patient
+Parent: http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips
 Title: "SE base profil for patient"
 Description: "This is the base Patient profile to be used when profiling on Patient in a Swedish context"
 * ^status = #active

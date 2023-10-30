@@ -43,7 +43,7 @@ ValueSet: SEBaseHSABefattningVS
 
 
 Profile: SEBasePractitioner
-Parent: http://hl7.org/fhir/StructureDefinition/Practitioner
+Parent: http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips
 Title: "SE base profile for practitioner"
 Description: "This is the base Practitioner profile to be used when profiling on Practitioner in a Swedish context"
 * ^status = #active
@@ -82,7 +82,7 @@ Description: "This is the base Practitioner profile to be used when profiling on
 * qualification.code.coding[hsa-befattning] from SEBaseHSABefattningVS (required)
 
 Profile: SEBasePractitionerRole
-Parent: http://hl7.org/fhir/StructureDefinition/PractitionerRole
+Parent: http://hl7.org/fhir/uv/ips/StructureDefinition/PractitionerRole-uv-ips
 Title: "SE base profil for practitioner role"
 Description: "This is the base Practitioner Role profile to be used when profiling on Practitioner Role in a Swedish context"
 * ^status = #active
